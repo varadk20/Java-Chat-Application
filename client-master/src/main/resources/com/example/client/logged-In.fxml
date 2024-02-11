@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="851.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.LoggedInController">
+   <children>
+      <AnchorPane prefHeight="536.0" prefWidth="859.0">
+      <Label fx:id="label_welcome" layoutX="330.0" layoutY="107.0" text="Welcome">
+         <font>
+
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_thank" layoutX="315.0" layoutY="233.0" text="Thank you for login!!">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_logout" layoutX="330.0" layoutY="417.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="208.0" style="-fx-background-color: #a435f0; -fx-cursor: hand;" text="Logout">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Button>
+         <Button fx:id="button_server" layoutX="334.0" layoutY="331.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="200.0" style="-fx-background-color: #a435f0; -fx-cursor: hand;" text="Chat Server">
+            <font>
+               <Font name="Arial Rounded MT Bold" size="16.0" />
+            </font>
+         </Button>
+      </AnchorPane>
+   </children>
+</HBox>
